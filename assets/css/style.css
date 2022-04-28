@@ -1,0 +1,36 @@
+section {
+    color: #fff;
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 10% 1fr 6%;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+        "h h"
+        "s m"
+        "f f"
+    ;
+}
+
+section div {
+    border: 1px solid #fff;
+}
+
+.box1 {
+    background-color: blue;
+    grid-area: h;
+}
+
+.box2 {
+    background-color: green;
+    grid-area: s;
+}
+
+.box3 {
+    background-color: red;
+    grid-area: m;
+}
+
+.box4 {
+    background-color: purple;
+    grid-area: f;
+}
